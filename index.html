@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Surajit Mandal</title>
+    <link rel="icon" href="Images/C.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd0cb8bd0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class ="container">
+        <nav>
+            <img src="Images/Surajit.png" alt="logo" height="45px">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">My Projects</a></li>
+                <li><a href="#portfolio">My Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Web Developer</p>
+            <h1>Hi, I'm <span>Surajit</span> Mandal <br>from India</h1>
+        </div>
+    </div>
+   </div>
+<!-- --------------------about----------------- -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+           <div class="about-col-1">
+              <img src="Images/Profile pic.jpeg">
+           </div>
+           <div class="about-col-2">
+              <h1 class="sub-title">About me</h1>
+              <p>I am passionate about using technology to create intuitive, user-friendly interfaces and efficient backend systems. I have a deep understanding of how to build robust, responsive websites and applications. My expertise includes proficiency in programming languages as well as experience with various frameworks and tools. I am also knowledgeable in version control systems like Git and have experience with cloud platforms like AWS and Azure.With excellent problem-solving skills and a strong attention to detail, I enjoy taking on complex development challenges and delivering high-quality solutions whether working on a team or independently. I am constantly seeking to expand my skillset and stay up-to-date with the latest technologies.</p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Academic Projects</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('language')">Languages</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>FRONT END DEVELOPMENT</span><br>HTML • CSS • JavaScript • ReactJS</li>
+                    <li><span>BACK END DEVELOPMENT</span><br>C# • C++ • Python • SQL• NodeJS • Express</li>
+                    <li><span>SOFT SKILLS</span><br>HTML • CSS • JavaScript • ReactJS</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Industrial Internship on Embedded System
+                        and Robotics</span><br>AI POWERED HAND GESTURE CONTROL CAR |ARDENT COMPUTECH PVT.
+                        LTD.| Jan 2024 - Mar 2024</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2021-Current</span><br>B.tech from BUIE (ECE) • CGPA: 8.35/10</li>
+                    <li><span>2020</span><br>XII(WBCHSE)|Indpur Goenka High School • Score 85.8% </li>
+                    <li><span>2018</span><br>X(WBSE)|Indpur Goenka High School • Score 88%</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="language">
+                <ul>
+                    <li><span>English</span><br>Proficient</li>
+                    <li><span>Hindi</span><br>Proficient</li>
+                    <li><span>Bengali</span><br>Native</li>
+                </ul>
+              </div>
+           </div>
+        </div>
+    </div>
+   </div>
+<!-- ------------------------Services---------------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>Front-end Projects</h2>
+                <p>Those projects are Web page based. Here You can copy the sourse code.</p>
+                <a href="https://github.com/surajit818615/HTML-Tutorial">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Back-end Projects</h2>
+                <p>Those projects are applicattion based. Here You can copy the sourse code. Download those applications from play store for fun & learn</p>
+                <a href="https://github.com/surajit818615/Python-Full-Course">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-bullseye"></i>
+                <h2>Web-Developement Projects</h2>
+                <p>Those projects are Web  page and application based. I have made my own Portfolio website, Amazon Prototype and many other applications here You can copy the sourse code.</p>
+                <a href="https://github.com/surajit818615/Web-Developement-Projects">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- ------------------Portfolio---------------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/Coursera certificate for Html, css & JavaScript_page-0001.jpg" alt="HTML,CSS,JS">
+                <div class="layer">
+                    <h3>My Front-end Certificates</h3>
+                    <p>I have completed HTML, CSS, JS,.. courses with Certificates from different Websites like Coursera, Udemy, MS, Simplelearn... Here you can see all of my front-end certificates</p>
+                    <a href="https://drive.google.com/drive/u/0/folders/16EcElpKu2bavDnN605TiCGBsTUJ4UrdN"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/UC-10aa2c80-fd70-408a-91b0-4fdfaf87a8c8.jpg" alt="Back-end Certificates">
+                <div class="layer">
+                    <h3>My Back-end Certificates</h3>
+                    <p>I have completed Python, C++, C,.. courses with certificates from Coursera, Udemy, Google,... Here you can access all of my certificates.</p>
+                    <a href="https://drive.google.com/drive/u/0/folders/1wfLNwTrYiDD_jvTzWVkEzbzjeNMKgVqq"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Certificate-A2Z Of Finance_ Finance Beginner Course-Surajit_page-0001.jpg" alt="Soft-skill">
+                <div class="layer">
+                    <h3>My Soft-skill Certificates</h3>
+                    <p>I have gained excelent problem solving skills,math, iq from these courses. I have completed them here is their certificates.</p>
+                    <a href="https://drive.google.com/drive/u/0/folders/1P-wxRTHvs5vT5A23Sem2svhrxCMeywBL"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+<!-- ---------------------Contacts------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>surajitmandal4701@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>7432818615</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/surajit-mandal-536a22224/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/surajit818615" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.youtube.com/@codersm" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://x.com/Surajit818615" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <a href="Images/Surajit Mandal  Resume 1.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required >
+                    <input type="text" name ="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169; Made by Surajit Mandal</p>
+    </div>
+</div>
+
+
+
+
+   <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+         }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+       }
+
+   </script>
+
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby22Fn-Hk-f-ugMKGg5dVwWSC3fD1fjXXN0hJDj4WP8QPr9biPcF7jKBkO0QIjbfK3R/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML ="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
